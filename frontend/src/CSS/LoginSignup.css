@@ -1,0 +1,114 @@
+/* Main wrapper to center the form */
+.loginsignup {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent; /* Won't hide your background photos */
+}
+
+/* The Box - Scaled down by 40% */
+.loginsignup-container {
+  width: 350px; /* Compact width from original 580px */
+  background: white;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+  border: 1px solid #efefef;
+}
+
+/* Form Title */
+.loginsignup-container h1 {
+  margin: 10px 0px;
+  font-size: 22px; /* Smaller font */
+  font-weight: 600;
+  text-align: center;
+  color: #333;
+}
+
+/* Input Fields Container */
+.loginsignup-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Tighter spacing */
+  margin-top: 20px;
+}
+
+/* Input Styling */
+.loginsignup-fields input {
+  height: 42px; /* Reduced from 60px */
+  width: 100%;
+  padding-left: 15px;
+  border: 1px solid #dcdcdc;
+  outline: none;
+  font-size: 14px;
+  border-radius: 6px;
+  box-sizing: border-box; /* Prevents input overflow */
+  transition: 0.3s ease;
+}
+
+.loginsignup-fields input:focus {
+  border: 1px solid #ff4141; /* Matches React Ecommerce theme */
+}
+
+/* Action Button */
+.loginsignup-container button {
+  width: 100%;
+  height: 45px; /* Compact button */
+  color: white;
+  background: #ff4141;
+  margin-top: 25px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.loginsignup-container button:hover {
+  background: #e63939;
+}
+
+/* Login/Signup Toggle Text */
+.loginsignup-login {
+  margin-top: 15px;
+  color: #5c5c5c;
+  font-size: 13px;
+  text-align: center;
+}
+
+.loginsignup-login span {
+  color: #ff4141;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.loginsignup-login span:hover {
+  text-decoration: underline;
+}
+
+/* Terms and Conditions Area */
+.loginsignup-agree {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 18px;
+  gap: 8px;
+  color: #7a7a7a;
+  font-size: 11px;
+}
+
+.loginsignup-agree input {
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 400px) {
+  .loginsignup-container {
+      width: 90%;
+      padding: 20px;
+  }
+}
