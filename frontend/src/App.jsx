@@ -9,7 +9,7 @@ import Footer from "./Components/Footer/Footer"
 import men_banner from "./assets/banner.jpg"
 import women_banner from "./assets/women_banner.avif"
 import kids_banner from "./assets/kids_banner.jpg"
-import Navbar from './components/navbar';
+// import Navbar from './components/navbar';
 function App() {
  
   return (
