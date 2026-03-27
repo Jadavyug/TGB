@@ -5,13 +5,14 @@ import Offers from '../Components/Offers/Offers'
 import NewCollections from "../Components/NewCollections/NewCollections"
 import Newsletter from '../Components/NewsLetter/Newsletter'
 import Footer from '../Components/Footer/Footer'
+import Popular from '../Components/popular/Popular'
 
 
 const Shop = () => {
   return (
     <div>
       <Hero/>
-      <popular/>
+     <Popular/>
       <Offers/>
       <NewCollections/>
       <Newsletter/>
